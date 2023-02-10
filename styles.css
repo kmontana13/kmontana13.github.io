@@ -5,25 +5,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Molengo&display=swap');
 
 h1, h2, h3 {
- font-family: 'Molengo', sans-serif;
+ font-family: 'Molengo';
  font-weight: 700;
- color: #61344e;
+ color: #3F96BF;
 }
 
 body {
-  font-family: 'Molengo', sans-serif;
+  font-family: 'Molengo';
   line-height: 1.75em;
   margin-top: 2.5em ;
   margin-bottom: 2.5em ;
 }
 
 p {
-  font-family: 'Molengo', sans-serif;
+  font-family: 'Molengo';
 }
 
 /* This sets the link text color; you can pick colors at this site: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool*/
 
-a { color: #386e73; } /* CSS link color */
+a { color: #193C4C } /* CSS link color */
 
 
 /*----------------NAVBAR ---------------*/
