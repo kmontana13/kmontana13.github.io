@@ -14,4 +14,4 @@ navbar:
 
 output:
   html_document:
-    css: index.css
+    css: styles.css
