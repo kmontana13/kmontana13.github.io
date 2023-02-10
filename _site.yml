@@ -2,7 +2,7 @@ name: "Katherine Montana"
 output_dir: "."
 navbar:
   title: "Katherine Montana"
-  left:
+  right:
     - text: "Home"
       href: index.html
     - text: "About Me"
