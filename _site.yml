@@ -11,4 +11,7 @@ navbar:
       href: CV.html
     - text: "Contact"
       href: contact.html
-      
+
+output:
+  html_document:
+    css: index.css
