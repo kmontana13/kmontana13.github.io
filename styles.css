@@ -5,20 +5,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Molengo&display=swap');
 
 h1, h2, h3 {
- font-family: 'Archivo Black', sans-serif;
+ font-family: 'Molengo', sans-serif;
  font-weight: 700;
  color: #61344e;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Molengo', sans-serif;
   line-height: 1.75em;
   margin-top: 2.5em ;
   margin-bottom: 2.5em ;
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Molengo', sans-serif;
 }
 
 /* This sets the link text color; you can pick colors at this site: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool*/
