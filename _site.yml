@@ -1,14 +1,14 @@
-name: "Katherine Montana"
+name: "Katherine O. Montana"
 output_dir: "."
 navbar:
-  title: "Katherine Montana"
+  title: "Katherine O. Montana"
   right:
     - text: "Home"
       href: index.html
     - text: "About Me"
       href: about.html
     - text: "CV"
-      href: KOM_CV_Nov22.pdf
+      href: KOM_CV_Mar_2026.pdf
     - text: "Contact"
       href: contact.html
 
