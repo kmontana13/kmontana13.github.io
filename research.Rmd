@@ -1,0 +1,11 @@
+---
+title: "Research"
+output: 
+  html_document:
+    css: ['styles.css']
+    includes:
+      after_body: footer.html
+---
+
+### Entomology rocks!
+#### More soon...

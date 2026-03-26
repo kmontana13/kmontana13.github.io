@@ -1,10 +1,17 @@
 ---
 title: "Katherine O. Montana"
+output: 
+  html_document:
+    css: ['styles.css']
+    includes:
+      after_body: footer.html
 ---
 
-I am PhD student in the at the American Museum of Natural History and the City University of New York Graduate Center.
+### I am an evolutionary biologist and entomologist. Insect systematics, population genetics, reproduction, microbiomes, and migration fascinate me and drive my research questions. 
 
-![](Kate_portraits_08 copy.JPEG)
+I am PhD student in the at the American Museum of Natural History and the City University of New York Graduate Center. You can call me Kate, and I use she/her pronouns!
+
+![](Montana_Kate_Dragonfly_Redden_AMNH_2025_06_25m (2).jpg)
 
 
-Ida Holyrup © Exploratorium
+Scott LaPoint © Black Rock Forest

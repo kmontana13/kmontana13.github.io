@@ -1,7 +1,12 @@
 ---
 title: "Curriculum vitae"
+output: 
+  html_document:
+    css: ['styles.css']
+    includes:
+      after_body: footer.html
 ---
 
-See below for the most current version of my CV.
+Below is the most up-to-date version of my curriculum vitae.
 
-![](KOM_CV_Nov22.pdf)
+<iframe src="https://drive.google.com/file/d/1APAGora7ngAvIU1O9wxhfiIrhsSxQgdp/view?usp=sharing&embedded=true" style="width:100%; height:800px; border:none;" frameborder="0"> </iframe>

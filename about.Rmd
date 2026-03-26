@@ -1,8 +1,34 @@
 ---
-title: "About Me"
+title: "About Kate"
+output: 
+  html_document:
+    css: ['styles.css']
+    includes:
+      after_body: footer.html
 ---
 
-I am a graduate student researcher in the arachnology lab at the California Academy of Sciences. I am advised by Dr. Lauren Esposito and am working toward my master's degree in integrative biology at San Francisco State University. My research utilizes molecular data to revise the evolutionary relationships between genera in a group of small brown spiders called the marronoids. I also recently worked on a project called the Untold Stories from the Archives in which my team and I used the Academy archives to illuminate the stories of marginalized scientists throughout the history of the Academy. I grew up in Folsom, CA and attended UC Berkeley for my undergraduate degree in biology and anthropology. I considers herself a lifelong learner and want to do all I can to get to know the natural world and how it operates.
+<!-- This hides the title "Research" from this page, since I wanted to have a display title that is different from the page title.  -->
 
+<style type="text/css">
 
-![](Kate_scorpion.jpeg)
+.author,.title{
+    display: none;
+}
+
+</style>
+
+## About Kate
+
+:::: {style="display: flex;"}
+
+::: {}
+
+<img src="./Kate_portraits_08.jpg" width="2160px"/>
+
+:::
+
+::: {}
+
+I am a PhD student researcher jointly appointed at the American Museum of Natural History's [Division of Invertebrate Zoology](https://www.amnh.org/research/invertebrate-zoology) and the City University of New York Graduate Center [Department of Biology (Ecology, Evolutionary Biology, and Behavior)](https://www.gc.cuny.edu/biology/subprograms/ecology-evolutionary-biology-and-behavior) where I am advised by Dr. Jessica Ware. I grew up in Folsom, CA, attended UC Berkeley for my undergraduate degree in integrative biology and anthropology, and earned my master's degree in integrative biology jointly at the California Academy of Sciences and San Francisco State University. I see myself as a lifelong learner and want to do all I can to get to know the natural world.
+
+Image credit to Ida Hørup © Exploratorium
