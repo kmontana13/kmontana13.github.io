@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### Connect your R project to a github repository and periodically reconcile the two.
+## Connect your R project to a github repository and periodically reconcile the two.
 
 First you need to make a GitHub repository at github.com. I like to keep mine private until publication of my project. Once you have created your repository, when you are looking at your repository "home page" on GitHub, click on the green \<\>Code button, and copy the HTTPS link.
 
@@ -41,7 +41,11 @@ gitcreds_set()
 
 Paste your personal access token (PAT).
 
-Once you have made changes in your R Project, click on commit and select all the changes you want to commit to your GitHub repository. I would think about what changes you want to include. For example, I don't include data files that I have uploaded to the R Project, mostly because large files can interfere with this process, but you might also consider data privacy. Then write a little note saying what you did and press commit.
+Once you have made changes in your R Project, click on commit and select all the changes you want to commit to your GitHub repository. 
+
+I would think about what changes you want to include. For example, I don't include data files that I have uploaded to the R Project, mostly because large files can interfere with this process, but you might also consider data privacy. It is just a good idea to not keep superfluous files in the folder that is serving as your working directory for the R Project. In the terminal, you can run a command like echo *.fastq.gz >> .gitignore to add all fastq files to be ignored by git so they don't try to be committed.
+
+Then write a little note saying what you did and press commit.
 
 You must then press the up arrow to push your changes to get them to show up on your GitHub repository.
 
