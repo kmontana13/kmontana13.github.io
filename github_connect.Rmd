@@ -1,0 +1,50 @@
+---
+title: "Connecting to GitHub Tutorial"
+author: "Katherine Montana"
+date: "2026-09-23"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Connect your R project to a github repository and periodically reconcile the two.
+
+First you need to make a GitHub repository at github.com. I like to keep mine private until publication of my project. Once you have created your repository, when you are looking at your repository "home page" on GitHub, click on the green \<\>Code button, and copy the HTTPS link.
+
+You will also need to generate a personal access token (PAT). You can do fine-grained or classic; I have been doing fine grained because you can pick which permissions you want the token to allow. SAVE it in your notes app or something because you cannot access it again.
+
+Then come back to RStudio. Make a new R Project in RStudio by clicking Create Project --\> Version control --\> Git: Clone a project from a git repository. Paste the HTTPS link from your GitHub repository and select the directory of your new project. Now your RStudio and your GitHub repository can talk to each other!
+
+To then be able to periodically reconcile the content in your R Project with your GitHub repository, run the following steps.
+
+Install packages
+
+```{r}
+#install.packages("gitcreds")
+#install.packages("usethis")
+```
+
+Load packages
+
+```{r}
+library(gitcreds)
+library(usethis)
+```
+
+Connecting your github to RStudio
+
+```{r}
+gitcreds_set()
+```
+
+Paste your personal access token (PAT).
+
+Once you have made changes in your R Project, click on commit and select all the changes you want to commit to your GitHub repository. I would think about what changes you want to include. For example, I don't include data files that I have uploaded to the R Project, mostly because large files can interfere with this process, but you might also consider data privacy. Then write a little note saying what you did and press commit.
+
+You must then press the up arrow to push your changes to get them to show up on your GitHub repository.
+
+You can also use the Pull (down arrow) button if you made/uploaded any files via GitHub and want them to show up in your R Project.
+
+Commit and push often!
